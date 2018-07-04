@@ -39,10 +39,6 @@ public class MainActivity extends AppCompatActivity {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
 
-                /*
-                {"installed":{"client_id":"592753236185-r7gv5a9ar0rubhb5i5t1g83rrbddo3cb.apps.googleusercontent.com","project_id":"assistant-190123","auth_uri":"https://accounts.google.com/o/oauth2/auth","token_uri":"https://accounts.google.com/o/oauth2/token","auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs","client_secret":"GR1EXVDtyXhbKHvsBtEr9lDf","redirect_uris":["urn:ietf:wg:oauth:2.0:oob","http://localhost"]}}
-                 */
-
             Gson gson = new Gson();
             Log.e(TAG, "gson=" + gson);
 
@@ -50,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                         "scope=" + "https://www.googleapis.com/auth/assistant-sdk-prototype" + "&" +
                         "response_type=code&" +
                         "redirect_uri=" + "urn:ietf:wg:oauth:2.0:oob" + "&" +
-                        "client_id=" + "592753236185-r7gv5a9ar0rubhb5i5t1g83rrbddo3cb.apps.googleusercontent.com";
+                        "client_id=" + "secret";
                 Log.e(TAG, "url=" + url);
 
 
