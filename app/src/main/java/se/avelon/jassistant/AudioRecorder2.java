@@ -8,7 +8,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class AudioRecorder {
+public class AudioRecorder2 {
 /*
     private TargetDataLine microphone;
 
@@ -16,7 +16,7 @@ public class AudioRecorder {
 
     private AudioConf audioConf;
 
-    public AudioRecorder() {}
+    public AudioRecorder2() {}
 
     public byte[] getRecord() throws AudioException {
         try {
